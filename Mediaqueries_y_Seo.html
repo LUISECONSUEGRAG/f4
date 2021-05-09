@@ -5,9 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <style></style>
 </head>
+
 <body>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTGNP7aMWwhf1SEacccVEH2QYuJ8dcvjYLeETtuNaSGOu2fA/viewform?embedded=true" width="640" height="1196" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    <header>
+        <h1>MEDIA </h1>
+    </header>
+
+
+<p>
+    Mediaqueries: un paso al frente en las CSS
+Las Media Queries representan una evolución importante de CSS, puesto que suponen la primera estructura condicional en el lenguaje. Sabemos que CSS no es un lenguaje de programación, ni tiene motivos para parecerse a ello, pero existen muchas cosas que se implementan en los lenguajes de programación y que nos vendrían bien en el desarrollo con CSS, como es el caso de los condicionales.
+
+"Si ocurre ésto, entonces haz tal cosa"
+
+Una construcción condicional como esta es tan útil y básica que, aunque CSS no sea un lenguaje de programación, necesitaba incorporarlas. Ejemplos de casos en los que nos vendría bien un condicional:
+
+- Si la pantalla del usuario tiene estas características, entonces aplica estos estilos
+- Si se imprime el documento en la impresora, aplica estos estilos.
+- Si la pantalla del dispositivo tiene estas dimensiones y además está situado en posición horizontal (landscape), entonces aplica este CSS.
+
+Situaciones como esas son básicas y los diseñadores pueden resolverlas usando las MediaQueries. Son un paso al frente en cuanto a la separación entre el contenido y su representación, puesto que nos facilitan que el contenido de una página pueda adaptarse al medio donde se está reproduciendo, sólo a través de la definición de estilos, sin tener que tocar el HTML para nada.
+
+Alternativas para implementar Media Queries
+Aunque la utilidad es novedosa, la sintaxis es parecida a lo que ya conocemos de las CSS, por lo que nos resultará bien sencilla.
+
+Para producir Media Queries debemos tener siempre en mente la expresión condicional, aquella que debe cumplirse para que se apliquen ciertos estilos. Además la expresión condicional puede tener incluso varias condiciones, usando operadores lógicos como "and" para combinarlas. De modo que las circunstancias que se deban cumplir para aplicar unas reglas CSS sean de lo más variadas.
+
+Alternativa 1: Aplicación de mediaqueries por la etiqueta LINK
+La primera alternativa de las MediaQueries es a través del atributo media de la etiqueta LINK. Como sabemos, esa etiqueta es la que se usa para enlazar una hoja de estilo con un documento HTML. En ese enlace podemos especificar condicionales que deben cumplirse para que los estilos enlazados se apliquen. Por ejemplo, que se esté imprimiendo un documento o que la pantalla tenga cierta anchura mínima.
+
+Recordamos, la etiqueta LINK tiene esta forma:
+
+<link rel="stylesheet" href="estilos-generales.css">
+Pues ahora simplemente le podemos agregar el atributo "media" indicando la condición que se debe cumplir para que estos estilos se apliquen:
+
+<link rel="stylesheet" href="estilo-imprimir.css" media="print">
+Este atributo media="print" quiere decir que los estilos deben aplicarse sólo cuando la página se están mostrando para la impresión.
+</p>     
+        
+    
 </body>
 </html>
