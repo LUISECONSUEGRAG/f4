@@ -12,9 +12,9 @@ ul, ol {
     background-color:#000;
     color:#fff;
     text-decoration:none;
-    padding: 20px 80px;
+    padding: 20px 75px;
     display:block;
-    
+    font-family:Arial, Helvetica, sans-serif;
 
 }
 
@@ -54,26 +54,24 @@ section{
 
 article {
     float: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text
 }
-
     
-
-
-     
 
 aside{
     float: right; 
     width: 30%; 
-    background-color: blueviolet;}
+    
+}
 
 footer{ 
     background-color: darkcyan;
-    padding:center; 
+    
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-
-
+    width: 1150px; 
 
 }
 .contenedor::after{
