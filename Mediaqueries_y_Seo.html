@@ -5,15 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style></style>
+    <style>
+    
+    header
+    { display:flex;
+      justify-content: space-between;
+      align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .contenedor{ background-color: blue;
+        }
+
+         
+        @media (max-width:600px) {
+            .contenedor{ background-color: coral;}
+                
+            }
+        header{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+    }
+    </style>
+    
 </head>
 
 <body>
     <header>
-        <h1>MEDIA </h1>
+        <img src="" alt="imagen 1" height="100px" width="200px">
+        <h1>Media Queries</h1>
+        <img src="" alt="" height="100px" width="200px">
+
     </header>
+        <div class="contenedor" style="color:rgb(30, 129, 210)">
+        <h1>Prueba de media</h1> 
+        </div>
 
+        <img src="" alt="" width="50%" height="40%">
 
+        
 <p>
     Mediaqueries: un paso al frente en las CSS
 Las Media Queries representan una evolución importante de CSS, puesto que suponen la primera estructura condicional en el lenguaje. Sabemos que CSS no es un lenguaje de programación, ni tiene motivos para parecerse a ello, pero existen muchas cosas que se implementan en los lenguajes de programación y que nos vendrían bien en el desarrollo con CSS, como es el caso de los condicionales.
