@@ -8,6 +8,9 @@
 ul, ol {
     list-style:none;
 }
+.nav{margin:0 auto;
+background-color: #000;}
+
 .nav li a {
     background-color:#000;
     color:#fff;
