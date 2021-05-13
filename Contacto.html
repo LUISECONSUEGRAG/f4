@@ -1,15 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
 
-    Tu nombre:
-<input type="text" name="nombre" size="20"><br />
-<br />Tu Email:
-<input type="text" name="email" size="20"><br />
-<br />Tu mensaje:
-<input type="text" name="mensaje" size="100"><br />
-<input type="submit" value="Enviar"></form>
+<body>
+   
+    <header>
+        <img src="5185208.jpg" alt="imagen fondo" width="1080" height="900">
+    </header>
+    
 
-<form method="POST" action="/cgi-sys/FormMail.cgi"></form>
-<input type="text" name="recipient" value="leconsuegrag@unadvirtual.edu.co">
+    <section>
+        <div class="contenedor">       
+            <form action="">
+                <h1>Contactanos</h1>
+        <div class="form-header"> 
+              
+            <div class="col-md-4 mb-3">
+                <label for="validarNombre">Nombre:<span class="red">*</span></label>
+                <input type="text" class="form-control" id="validarNombre" name="validarNombre" required>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarApellidos">Apellidos:<span class="red">*</span></label>
+                <input type="text" class="form-control" id="validarApellidos" name="validarApellidos" required>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarEmail">Email:<span class="red">*</span></label>
+                <input type="email" class="form-control" id="validarEmail" name="validarEmail" required>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarTelefono">Teléfono:</label>
+                <input type="number" class="form-control" id="validarTelefono" name="validarTelefono" max="999999999">
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarTema">Tema:<span class="red">*</span></label>
+                <select class="custom-select" id="validarTema" name="validarTema" required>
+                    <option selected disabled value="">Selecciona...</option>
+                    <option value="Problema con acceso a Web">Problema con acceso a Web</option>
+                    <option value="Propuesta de colaboración">Propuesta de colaboración</option>
+                    <option value="Eliminar mi usuario de la Web">Eliminar mi usuario de la Web</option>
+                    <option value="Otras cuestiones">Otras cuestiones</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarAsunto">Asunto:</label>
+                <input type="text" class="form-control" id="validarAsunto" name="validarAsunto" required>
+            </div>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="validationMensaje">Mensaje:<span class="red">*</span></label>
+            <textarea class="form-control" id="validationMensaje" name="validationMensaje" rows="3" min="25" required></textarea>
+        </div>
+        <br>
+        <div class="form-group mb-10">
+            <button class="btn btn-primary" type="submit" name="submit">Enviar</button>
+            <button class="btn btn-success" type="reset" name="reset">Limpiar</button>
+        </div>
+    
+    </form> 
+</section>
 
-<input type="hidden" name="subject" value="Asunto del Email">
-<input type="hidden" name="redirect" value="leconsuegrag@unadvirtual.edu.co">
+</body>
+</html>
+
 
