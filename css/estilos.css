@@ -1,7 +1,7 @@
 
 #header {
     margin:0px;
-    width: 500px;
+    width: 300px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -15,7 +15,7 @@ background-color: #000;}
     background-color:#000;
     color:#fff;
     text-decoration:none;
-    padding: 20px 75px;
+    padding: 15px 55px;
     display:block;
     font-family:Arial, Helvetica, sans-serif;
 
@@ -31,7 +31,7 @@ background-color: #000;}
 .nav li ul {
     display:none;
     position:center;
-    min: width 20x; 
+  
          
 }
 
