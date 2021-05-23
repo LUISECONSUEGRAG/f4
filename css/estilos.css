@@ -102,11 +102,11 @@ footer{
     display: block;
     clear: both;
 }
-.contenedor{ background-color: ;
+
 }
 
  
 @media (max-width:600px) {
-    .contenedor{ background-color: coral;}
+    
         
     }
