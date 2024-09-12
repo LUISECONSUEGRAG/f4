@@ -1,0 +1,112 @@
+.active
+{ padding-top: 1200px 500px;
+    
+}
+carousel-inner> .item> img { ancho: 640px; altura: 360px; }
+    
+}
+
+.p{
+    margin: auto;
+    background-color:beige;
+    text-decoration-color: beige;
+
+
+
+
+}
+
+
+
+.header {
+    
+    width: 100px;
+    background-color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+}
+.nav{margin:0 auto;
+background-color: #000;}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding: 15px 55px;
+    display:block;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+.nav > li {
+    float:left;
+}
+
+.nav li ul {
+    display:none;
+    position:center;
+  
+         
+}
+
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+   
+    top:0px;
+}
+
+section{
+    float: right; 
+    width: 70%;
+     
+}
+
+article {
+    float: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text
+}
+    
+
+aside{
+    float: right; 
+    width: 30%; 
+    
+}
+
+footer{ 
+    background-color: ;
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 1150px; 
+
+}
+.contenedor::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+}
+
+ 
+@media (max-width:600px) {
+    
+        
+    }

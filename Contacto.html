@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fondo de prueba</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body background="img/pexels-simon-berger-1323550.jpg"   >
+
+
+ 
+
+    <header>
+        
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/banner info.jpg"  href="https://www.unad.edu.co/" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+    
+            <div id="header"></div>
+            <ul class="nav">
+                <ul class="nav justify-content-center"></ul>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Tema
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="multimedia1.html">Etiquetas semantica</a></li>
+                        <li><a class="dropdown-item" href="tema1.html">Enlaces y Lista</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Aprendizaje
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Mediaqueries_y_Seo.html">MediaQuery</a></li>
+                        <li><a class="dropdown-item" href="cuestionario.html">Formulario</a></li>
+                    </ul>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                </li>
+    
+            </ul>
+    
+        
+          
+    </header>
+   
+    <br><br>
+    <section>
+        <div class="contenedor">       
+            <form action="">
+                <h1>Contactanos</h1>
+        <div class="form-header"> 
+              
+            <div class="col-md-4 mb-3">
+                <label for="validarNombre">Nombre:<span class="red">*</span></label>
+                <input type="text" class="form-control" id="validarNombre" name="validarNombre" required>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarApellidos">Apellidos:<span class="red">*</span></label>
+                <input type="text" class="form-control" id="validarApellidos" name="validarApellidos" required>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarEmail">Email:<span class="red">*</span></label>
+                <input type="email" class="form-control" id="validarEmail" name="validarEmail" required>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarTelefono">Teléfono:</label>
+                <input type="number" class="form-control" id="validarTelefono" name="validarTelefono" max="999999999">
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarTema">Tema:<span class="red">*</span></label>
+                <select class="custom-select" id="validarTema" name="validarTema" required>
+                    <option selected disabled value="">Selecciona...</option>
+                    <option value="Problema con acceso a Web">Problema con acceso a Web</option>
+                    <option value="Propuesta de colaboración">Propuesta de colaboración</option>
+                    <option value="Otras cuestiones">Otras cuestiones</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validarAsunto">Asunto:</label>
+                <input type="text" class="form-control" id="validarAsunto" name="validarAsunto" required>
+            </div>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="validationMensaje">Mensaje:<span class="red">*</span></label>
+            <textarea class="form-control" id="validationMensaje" name="validationMensaje" rows="3" min="25" required></textarea>
+        </div>
+        <br>
+        <div class="form-group mb-10">
+            <button class="btn btn-primary" type="submit" name="submit">Enviar</button>
+            <button class="btn btn-success" type="reset" name="reset">Limpiar</button>
+        </div>
+    
+    </form> 
+</section>
+<footer>
+    <section>
+        <br><br>
+        <h6>Página creada por Luis Consuegra</h6>
+        <a href="https://www.unad.edu.co/">UNAD 2021
+            <h5> </h5>
+    </section>
+
+</footer>
+</body>
+</html>
+
+
